@@ -1,0 +1,5 @@
+#define AudioData_VERSION_MAJOR @AudioData_VERSION_MAJOR@
+#define AudioData_VERSION_MINOR @AudioData_VERSION_MINOR@
+#cmakedefine HAVE_MPG123
+#cmakedefine HAVE_AMR
+#cmakedefine BUILD_DLL
