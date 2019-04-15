@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.phash</groupId>
-  <artifactId>AudioData</artifactId>
+  <artifactId>JAudioData</artifactId>
   <version>1.0.0</version>
   <name>AudioData</name>
   <packaging>jar</packaging>
@@ -36,7 +36,7 @@
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-surefire-plugin</artifactId>
-	<version>2.17</version>
+	<version>3.0.0-M1</version>
 	<configuration>
 	  <reportFormat>brief</reportFormat>
 	  <useFile>false</useFile>
