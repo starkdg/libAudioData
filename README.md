@@ -8,13 +8,31 @@
 
 ## Install
 
+You can install the library like so:
+
 ```
 cmake .
 make all
 make install
 ```
 
+The java bindings' native jni library:
+
+```
+cd bindings/java
+cmake .
+make all
+make install
+```
+
+Install the java jar package in the local maven .m2 repository:
+
+```
+mvn install
+```
+
 ## Dependencies
+   (With the development header files)
 
 	- libsndfile      v1.0 .21 (www.meganerd.com/libsndfile)
     - libsamplerate   v0.1 .7  (www.meganerd.com/src)

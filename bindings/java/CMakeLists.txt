@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
+project(AudioData-jni)
+set(audioData-jni_VERSION_MAJOR 0)
+set(audioData-jni_VERSION_MINOR 1)
+
 find_package(JNI)
 
 include_directories(${JNI_INCLUDE_DIRS} ${PROJECT_SOURCE_DIR})
